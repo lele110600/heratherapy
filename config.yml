@@ -1,0 +1,103 @@
+backend:
+  name: git-gateway
+  branch: main
+
+# Aquí se guardarán las imágenes que subas desde el panel (ej. tu foto)
+media_folder: "uploads"
+public_folder: "/uploads"
+
+locale: "es"
+
+collections:
+  - name: "contenido"
+    label: "Contenido de la web"
+    files:
+      - name: "pagina"
+        label: "Textos de la página"
+        file: "content.json"
+        fields:
+          - label: "Menú"
+            name: "nav"
+            widget: object
+            fields:
+              - { label: "Texto del botón", name: "cta", widget: string }
+
+          - label: "Portada (Hero)"
+            name: "hero"
+            widget: object
+            fields:
+              - { label: "Frase pequeña de arriba", name: "eyebrow", widget: string }
+              - { label: "Título grande (usa ** ** para resaltar una parte)", name: "title", widget: text }
+              - { label: "Texto de introducción", name: "lead", widget: text }
+              - { label: "Botón principal", name: "cta_primary", widget: string }
+              - { label: "Botón secundario", name: "cta_secondary", widget: string }
+              - { label: "Etiqueta 1", name: "pillar1_label", widget: string }
+              - { label: "Texto 1", name: "pillar1_text", widget: string }
+              - { label: "Etiqueta 2", name: "pillar2_label", widget: string }
+              - { label: "Texto 2", name: "pillar2_text", widget: string }
+              - { label: "Etiqueta 3", name: "pillar3_label", widget: string }
+              - { label: "Texto 3", name: "pillar3_text", widget: string }
+
+          - label: "Filosofía"
+            name: "filosofia"
+            widget: object
+            fields:
+              - { label: "Frase pequeña", name: "eyebrow", widget: string }
+              - { label: "Título", name: "title", widget: text }
+              - { label: "Párrafo 1", name: "p1", widget: text }
+              - { label: "Párrafo 2", name: "p2", widget: text }
+
+          - label: "Sobre mí"
+            name: "presentacion"
+            widget: object
+            fields:
+              - { label: "Etiqueta sobre la foto", name: "photo_tag", widget: string }
+              - { label: "Frase pequeña", name: "eyebrow", widget: string }
+              - { label: "Título", name: "title", widget: text }
+              - { label: "Párrafo 1", name: "p1", widget: text }
+              - { label: "Párrafo 2", name: "p2", widget: text }
+              - { label: "Credencial 1 - título", name: "cred1_title", widget: string }
+              - { label: "Credencial 1 - texto", name: "cred1_text", widget: string }
+              - { label: "Credencial 2 - título", name: "cred2_title", widget: string }
+              - { label: "Credencial 2 - texto", name: "cred2_text", widget: string }
+              - { label: "Credencial 3 - título", name: "cred3_title", widget: string }
+              - { label: "Credencial 3 - texto", name: "cred3_text", widget: string }
+
+          - label: "Servicios"
+            name: "servicios"
+            widget: object
+            fields:
+              - { label: "Frase pequeña", name: "eyebrow", widget: string }
+              - { label: "Título", name: "title", widget: text }
+              - { label: "Subtítulo", name: "subtitle", widget: text }
+              - { label: "Servicio 1 - título", name: "s1_title", widget: string }
+              - { label: "Servicio 1 - texto", name: "s1_text", widget: text }
+              - { label: "Servicio 2 - título", name: "s2_title", widget: string }
+              - { label: "Servicio 2 - texto", name: "s2_text", widget: text }
+              - { label: "Servicio 3 - título", name: "s3_title", widget: string }
+              - { label: "Servicio 3 - texto", name: "s3_text", widget: text }
+
+          - label: "Área privada"
+            name: "privada"
+            widget: object
+            fields:
+              - { label: "Frase pequeña", name: "eyebrow", widget: string }
+              - { label: "Título", name: "title", widget: text }
+              - { label: "Texto", name: "text", widget: text }
+              - { label: "Item 1 - título", name: "i1_title", widget: string }
+              - { label: "Item 1 - texto", name: "i1_text", widget: text }
+              - { label: "Item 2 - título", name: "i2_title", widget: string }
+              - { label: "Item 2 - texto", name: "i2_text", widget: text }
+              - { label: "Item 3 - título", name: "i3_title", widget: string }
+              - { label: "Item 3 - texto", name: "i3_text", widget: text }
+              - { label: "Botón", name: "cta", widget: string }
+              - { label: "Nota pequeña", name: "nota", widget: string }
+
+          - label: "Llamada final"
+            name: "cta_final"
+            widget: object
+            fields:
+              - { label: "Frase pequeña", name: "eyebrow", widget: string }
+              - { label: "Título", name: "title", widget: text }
+              - { label: "Texto", name: "text", widget: text }
+              - { label: "Botón", name: "cta", widget: string }

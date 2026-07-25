@@ -1,0 +1,67 @@
+{
+  "nav": {
+    "cta": "Reservar llamada"
+  },
+  "hero": {
+    "eyebrow": "Hera Therapy · Fisioterapia · Nutrición · Salud de la mujer",
+    "title": "Acompañar tu cuerpo **en cada etapa**, con ejercicio y alimentación con sentido.",
+    "lead": "Creo que el movimiento terapéutico y la nutrición no son dos caminos separados, sino una misma conversación con tu cuerpo — especialmente en momentos vulnerables como una lesión o el posparto, donde recuperar la confianza es tan importante como recuperar la función.",
+    "cta_primary": "Reservar mi primera llamada →",
+    "cta_secondary": "Conocer la filosofía",
+    "pillar1_label": "Enfoque",
+    "pillar1_text": "Ejercicio terapéutico personalizado, no rutinas genéricas.",
+    "pillar2_label": "Etapa",
+    "pillar2_text": "Especial atención a lesiones y al posparto.",
+    "pillar3_label": "Método",
+    "pillar3_text": "Fisioterapia y alimentación trabajando en la misma dirección."
+  },
+  "filosofia": {
+    "eyebrow": "Nuestra filosofía",
+    "title": "El cuerpo no se repara por partes: se acompaña como un todo.",
+    "p1": "No creemos en separar el músculo de lo que comes, ni el dolor de la etapa vital que atraviesas. Cada plan nace de escuchar primero — qué ha pasado en tu cuerpo, qué necesita ahora y qué es realista para tu día a día — antes de proponer un solo ejercicio o una sola comida.",
+    "p2": "Trabajamos especialmente con mujeres en momentos de cambio: una lesión que interrumpe la rutina, un posparto que reorganiza el cuerpo entero. En esos momentos, el objetivo no es \"volver a antes\", sino avanzar con información, respeto por los tiempos y un plan que sí se puede sostener."
+  },
+  "presentacion": {
+    "photo_tag": "Fisioterapeuta & Dietista",
+    "eyebrow": "Sobre mí",
+    "title": "Soy quien diseña y acompaña personalmente tu tratamiento.",
+    "p1": "Soy fisioterapeuta especializada en salud de la mujer y ejercicio físico, y también dietista. Superviso personalmente cada valoración, cada programa de ejercicio y cada pauta de alimentación que recibes: no hay equipos intermedios ni plantillas genéricas.",
+    "p2": "Mi trabajo une dos disciplinas que casi siempre se tratan por separado, para que el movimiento y la nutrición avancen en la misma dirección durante procesos como una lesión o el posparto.",
+    "cred1_title": "Fisioterapia — Salud de la mujer",
+    "cred1_text": "Ejercicio terapéutico personalizado y recuperación funcional.",
+    "cred2_title": "Dietista",
+    "cred2_text": "Planes de alimentación adaptados a cada etapa y objetivo.",
+    "cred3_title": "Seguimiento cercano",
+    "cred3_text": "Valoración inicial y ajuste continuo del plan contigo."
+  },
+  "servicios": {
+    "eyebrow": "Cómo trabajamos juntas",
+    "title": "Tres pilares, un mismo plan",
+    "subtitle": "Cada asesoría combina estas tres áreas en distintas proporciones, según el momento en el que te encuentres.",
+    "s1_title": "Ejercicio terapéutico personalizado",
+    "s1_text": "Programas adaptados a tu lesión, tu suelo pélvico o tu recuperación posparto, con progresión revisada por mí.",
+    "s2_title": "Alimentación con propósito",
+    "s2_text": "Pautas nutricionales realistas que sostienen tu recuperación y tu energía diaria, sin dietas rígidas.",
+    "s3_title": "Acompañamiento en momentos vulnerables",
+    "s3_text": "Atención especial a lesiones y al posparto, donde el cuerpo y la confianza necesitan tiempo y guía cercana."
+  },
+  "privada": {
+    "eyebrow": "Área exclusiva para clientas",
+    "title": "Un espacio propio con tus ejercicios, recetas y programas.",
+    "text": "Una vez iniciamos la asesoría, tienes acceso a un espacio privado —solo para tu correo o para quien yo autorice— con el contenido pensado específicamente para tu proceso.",
+    "i1_title": "Vídeos de ejercicios",
+    "i1_text": "Rutinas terapéuticas explicadas paso a paso, con la progresión adecuada a tu fase de recuperación.",
+    "i2_title": "Recetario",
+    "i2_text": "Recetas pensadas para acompañar tu recuperación y tu energía, sin complicaciones en la cocina.",
+    "i3_title": "Programas de alimentación",
+    "i3_text": "Planes semanales o por fases, ajustados junto a ti según cómo evoluciona tu proceso.",
+    "cta": "Solicitar acceso",
+    "nota": "El acceso se activa de forma individual tras tu primera llamada conmigo."
+  },
+  "cta_final": {
+    "eyebrow": "Empecemos",
+    "title": "El primer paso es una conversación, no un compromiso.",
+    "text": "Cuéntame tu situación en el formulario y reserva tu primera llamada informativa: en ella te explico cómo trabajamos y qué plan tiene más sentido para ti.",
+    "cta": "Rellenar formulario y reservar llamada →"
+  }
+}
